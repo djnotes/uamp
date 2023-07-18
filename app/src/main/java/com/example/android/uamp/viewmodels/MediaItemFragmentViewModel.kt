@@ -173,10 +173,10 @@ class MediaItemFragmentViewModel(
         private val musicServiceConnection: MusicServiceConnection
     ) : ViewModelProvider.NewInstanceFactory() {
 
-        @Suppress("unchecked_cast")
-        override fun <T : ViewModel?> create(modelClass: Class<T>): T {
-            return MediaItemFragmentViewModel(mediaId, musicServiceConnection) as T
-        }
+//        @Suppress("unchecked_cast")
+//        override fun <T : ViewModel?> create(modelClass: Class<T>): T {
+//            return MediaItemFragmentViewModel(mediaId, musicServiceConnection) as T
+//        }
     }
 }
 

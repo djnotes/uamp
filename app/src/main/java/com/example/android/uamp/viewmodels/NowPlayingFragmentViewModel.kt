@@ -193,10 +193,10 @@ class NowPlayingFragmentViewModel(
         private val musicServiceConnection: MusicServiceConnection
     ) : ViewModelProvider.NewInstanceFactory() {
 
-        @Suppress("unchecked_cast")
-        override fun <T : ViewModel?> create(modelClass: Class<T>): T {
-            return NowPlayingFragmentViewModel(app, musicServiceConnection) as T
-        }
+//        @Suppress("unchecked_cast")
+//        override fun <T : ViewModel?> create(modelClass: Class<T>): T {
+//            return NowPlayingFragmentViewModel(app, musicServiceConnection) as T
+//        }
     }
 }
 
